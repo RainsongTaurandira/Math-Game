@@ -1,15 +1,20 @@
+:root {
+    font-family: cursive, sans-serif;
+}
+
 html {
     height: 100%;
-    background: radial-gradient(circle, #fff, #ccc);
+    background: linear-gradient(rgb(165, 136, 252), rgb(251, 158, 235));
 }
 
 #container {
     height: 400px;
     width: 550px;
-    background-color: #90D2EA;
+    background: linear-gradient(rgb(207, 252, 211), rgb(62, 106, 252));
     margin: 100px auto;
     padding: 20px;
     border-radius: 10px;
+    border: 3px solid rgb(4, 1, 150);
     box-shadow: 0px 4px 0px 0px #009de4;
     -webkit-box-shadow: 0px 4px 0px 0px #009de4;
     -moz-box-shadow: 0px 4px 0px 0px #009de4;
@@ -18,12 +23,12 @@ html {
 
 #score {
     background-color: #f1ff92;
-    color: #888e5f;
+    color: #164933;
     padding: 5px;
     border-radius: 5px;
-    box-shadow: 0 4px 0 0 #888e5f;
-    -webkit-box-shadow: 0 4px 0 0 #888e5f;
-    -moz-box-shadow: 0 4px 0 0 #888e5f;
+    box-shadow: 0 4px 0 0px #ffcf70;
+    -webkit-box-shadow: 0 4px 0 0 #ffcf70;
+    -moz-box-shadow: 0 4px 0 0 #ffcf70;
     position: absolute;
     left: 500px;
 }
@@ -63,9 +68,10 @@ html {
     color: darkblue;
     font-size: 100px;
     text-align: center;
-    font-family: cursive, sans-serif;
+   
     padding: 5px;
     border-radius: 10px;
+    border: 3px solid rgb(4, 1, 150);
     box-shadow: 0 4px 0 0 darkcyan;
     -moz-box-shadow: 0 4px 0 0 darkcyan;
     -webkit-box-shadow: 0 4px 0 0 darkcyan;
@@ -88,6 +94,7 @@ html {
     line-height: 35px;
     padding: 5px;
     border-radius: 10px;
+    border: 3px solid rgb(52, 1, 52);
     box-shadow: 0 4px 0 0 darkorchid;
     -webkit-box-shadow: 0 4px 0 0 darkorchid;
     -moz-box-shadow: 0 4px 0 0 darkorchid;
@@ -109,10 +116,11 @@ html {
 }
 
 .box {
-    width: 85px;
+    width: 79px;
     height: 85px;
     background-color: aliceblue;
     border-radius: 10px;
+    border: 3px solid rgb(1, 45, 51);
     box-shadow: 0 4px 0 0 darkcyan;
     -webkit-box-shadow: 0 4px 0 0 darkcyan;
     -moz-box-shadow: 0 4px 0 0 darkcyan;
@@ -132,15 +140,16 @@ html {
 }
 
 .boxIndex {
-    width: 115px;
+    width: 109px;
+    margin-right:2px;
     height: 55px;
     background-color: aliceblue;
     border-radius: 10px;
+    border: 2px solid rgb(1, 45, 51);
     box-shadow: 0 4px 0 0 darkcyan;
     -webkit-box-shadow: 0 4px 0 0 darkcyan;
     -moz-box-shadow: 0 4px 0 0 darkcyan;
     float:left;
-    /*margin-right: 40px;*/
     color: darkblue;
     text-align: center;
     font-size: 1rem;
@@ -152,6 +161,10 @@ html {
     -o-transition: all 0.4s;
     -ms-transition: all 0.4s;
     transition: all 0.4s;
+}
+
+.boxIndex a {
+    text-decoration: none;
 }
 
 
@@ -225,15 +238,15 @@ html {
 #timeremaining {
     width: 350px;
     background-color: #f1ff92;
-    color: #888e5f;
+    color: #164933;
     text-align: center;
     padding: 5px;
     border-radius: 5px;
-    box-shadow: 0 4px 0 0 #888e5f;
-    -webkit-box-shadow: 0 4px 0 0 #888e5f;
-    -moz-box-shadow: 0 4px 0 0 #888e5f;
+    box-shadow: 0 4px 0 0 #ffcf70;
+    -webkit-box-shadow: 0 4px 0 0 #ffcf70;
+    -moz-box-shadow: 0 4px 0 0 #ffcf70;
     position: absolute;
-    margin: 335px 94px;
+    margin: 330px 94px;
     display: none;
 }
 
