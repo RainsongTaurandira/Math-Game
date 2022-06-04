@@ -25,3 +25,5 @@ It was a fun project to play with.
 
 What was used?
 Plain 'vanilla' HTML, CSS and JavaScript
+
+Live site: https://rainsong.itch.io/maths-game
